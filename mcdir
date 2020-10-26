@@ -1,0 +1,7 @@
+# Make directory and cd to it
+
+mcdir () {
+    mkdir -p $1
+    cd $1
+}
+
